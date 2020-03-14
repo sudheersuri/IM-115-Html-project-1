@@ -10,3 +10,7 @@ function jsredirect()
 {
 	window.location.href="./javascript_questions.html";
 }
+function loginredirect()
+{
+	window.location.href="./login.html";
+}

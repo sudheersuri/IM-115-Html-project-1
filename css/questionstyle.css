@@ -14,7 +14,7 @@ body
     margin:2%;
     box-shadow: 0px 0px 15px black; 
 }
-p,label
+label,p
 {
 	font-family: "TTNorms",sans-serif;
 	text-align:justify;
@@ -47,4 +47,3 @@ b
 {
 	margin-left: 3%;
 }
-

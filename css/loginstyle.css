@@ -1,0 +1,82 @@
+.home_link
+{
+	color: white;
+	font-style: bold;
+}
+body
+{
+	background:#662D91;
+	color:white;
+	line-height: 1.5;
+	font-size: 1.5rem;	
+	letter-spacing: 2px;
+}
+.login,.signup {
+  background: white;
+  color:black;
+  margin:5%;
+  padding:2%;
+  box-shadow: 0px 0px 8px black;
+  border-radius: 20px;
+}
+label
+{
+    margin:2%;
+	margin-left:5%;
+	letter-spacing: 3px;
+    font-family: "TTNorms",sans-serif;
+}
+p
+{
+	font-family: "TTNorms",sans-serif;
+	font-size:30px;
+	letter-spacing: 3px;
+    
+}
+
+a
+{
+	margin-left: 5%;
+	
+}
+
+hr
+{
+	margin-left:5%;
+	margin-right:5%; 
+}
+input
+{  
+	margin:2%;
+	margin-left: 5%;
+    border-radius: 20px;
+	width:80%;
+	height:35px;
+	font-size: 100%;
+	padding:10px;
+}
+input:focus
+{
+  outline:none;
+}
+input:hover
+{
+	background: yellow;
+}
+button:hover
+{
+	background-color:#20B2AA;
+}
+button
+{
+	border: none;
+	margin-left:5%;
+	margin-top:3%;
+	color: white;
+	letter-spacing:5px;
+	background-color: #483D8B;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 30px;
+}
