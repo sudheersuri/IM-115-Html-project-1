@@ -1,0 +1,50 @@
+body
+{
+	background:#662D91;
+	color:white;
+	line-height: 1.5;
+	font-size: 1.5rem;	
+	letter-spacing: 2px;
+}
+.questionsBox
+{	
+    background: white;
+    color: black;
+    padding:3%;
+    margin:2%;
+    box-shadow: 0px 0px 15px black; 
+}
+p,label
+{
+	font-family: "TTNorms",sans-serif;
+	text-align:justify;
+	font-size: 1.6rem;
+}
+form
+{
+	padding-left:3%;
+}
+input:hover
+{
+	cursor: pointer;
+}
+button
+{
+	border: none;
+	color: white;
+	background-color: #483D8B;
+	cursor: pointer;
+	margin-top: 5%;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 30px;
+}
+button:hover
+{
+	background-color:#20B2AA;
+}
+b
+{
+	margin-left: 3%;
+}
+

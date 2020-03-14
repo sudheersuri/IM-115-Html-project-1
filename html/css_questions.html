@@ -1,38 +1,40 @@
 <!DOCTYPE html>
+
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <title>CSS</title>
-<script src="../javascript/script.js"></script>
+<script src="../javascript/questionscript.js"></script>
+<link href="../css/questionstyle.css" rel="stylesheet" />
+
 </head>
 <body>
-<h2> T Y P K </h2>
-<br><br><br>
-<h3>CSS Test</h3>
-<br><br><br>
+<center><h2> T Y P K </h2></center>
+
 <div class="questionsBox">
 	<form>
 		<p> 1) a:hover is an example of ______ ?</p> 
-		<input type="radio" name="first" > <label id="answer">pseudo class</label>
-  		<input type="radio" name="first" > <label>pseudo element</label>
+		<input type="radio" name="first" > <label id="answer"> pseudo class</label><br><br>
+  		<input type="radio" name="first" > <label> pseudo element</label>
+  		
   		
   		<p> 2) which of the following is not a value of float property?</p> 
-		<input type="radio" name="second" ><label>none</label>
-        <input type="radio" id="answer" name="second" > <label> right</label>
+		<input type="radio" name="second" > <label>none</label><br><br>
+        <input type="radio" id="answer" name="second" > <label> right</label><br><br>
         <input type="radio" id="answer" name="second"> <label id="answer"> center</label>
 
     	<p> 3) _______ clears an area outside the border of a content?</p> 
-		<input type="radio" id="answer" name="third" ><label>padding</label>
-  		<input type="radio" name="third" ><label id="answer">margin</label>
-  		<input type="radio" name="third" ><label >clear </label>
+		<input type="radio" id="answer" name="third" > <label>padding</label><br><br>
+  		<input type="radio" name="third" > <label id="answer">margin</label><br><br>
+  		<input type="radio" name="third" > <label >clear </label>
 
     	<p> 4) which of the following will be used if i want to move my div element by 30px to the left of the screen?</p> 
-  		<input type="radio" name="fourth" /><label>left :30px</label>
-  		<input type="radio" id="answer" name="fourth" ><label id="answer">right:30 px</label>
-  		<input type="radio" id="answer" name="fourth" ><label>padding-left: 30px </label>
-  		<input type="radio" id="answer" name="fourth" /><label>margin-left: 30 px   </label>
+  		<input type="radio" name="fourth" /> <label>left :30px</label><br><br>
+  		<input type="radio" id="answer" name="fourth" > <label id="answer">right:30 px</label><br><br>
+  		<input type="radio" id="answer" name="fourth" > <label>padding-left: 30px </label><br><br>
+  		<input type="radio" id="answer" name="fourth" /> <label>margin-left: 30 px   </label>
     </form>
-
-    <button id="showBtn" onclick="answers()">Show Answers</button>
+        <center><button id="backBtn" onclick="gotohome()">Go Back</button><span>    </span><button id="showBtn" onclick="answers()">Show Answers</button></center>
 </div>
 </body>
 </html>

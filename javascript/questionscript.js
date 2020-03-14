@@ -6,7 +6,12 @@ function answers()
    
    while(i<rightanswer.length)
    {
-   	 rightanswer[i].style.color="green";  
+   	 rightanswer[i].style.background="#ADFF2F";  
      i++;
    }
+}
+
+function gotohome()
+{
+	window.location.href="./home.html";
 }

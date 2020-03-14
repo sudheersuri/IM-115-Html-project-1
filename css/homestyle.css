@@ -1,0 +1,52 @@
+body
+{
+	background:#662D91;
+	color:white;
+	line-height: 1.5;
+	font-size: 1.5rem;	
+	word-spacing:2px;
+	letter-spacing: 2px;
+}
+.about
+{	
+    background: white;
+    color: black;
+    padding:3%;
+    margin:2%;
+    box-shadow: 0px 0px 15px black; 
+}
+p
+{
+	font-family: "TTNorms",sans-serif;
+	text-align:justify;
+}
+table
+{
+	margin :2%;
+	padding:2%;
+	box-shadow: 0px 0px 15px black; 
+
+}
+img
+{
+ float: left;
+ margin-right:2%;
+}
+.tests
+{
+	margin-top: 6%;
+	clear:left;
+}
+span:hover
+{
+	cursor: pointer;
+	opacity: 50%;
+}
+span
+{
+	font-size: 3rem;
+}
+.htmllogo,.csslogo,.jslogo
+{
+	height:5em;
+}
