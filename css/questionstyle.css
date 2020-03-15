@@ -6,6 +6,10 @@ body
 	font-size: 1.5rem;	
 	letter-spacing: 2px;
 }
+label
+{
+	text-transform: capitalize;
+}
 .questionsBox
 {	
     background: white;
@@ -24,6 +28,13 @@ form
 {
 	padding-left:3%;
 }
+
+input
+{
+	width:2.6rem;
+	height: 1.5rem;
+
+}
 input:hover
 {
 	cursor: pointer;
@@ -38,6 +49,8 @@ button
 	font-size: 20px;
 	padding: 15px;
 	border-radius: 30px;
+    outline:none;
+
 }
 button:hover
 {
