@@ -28,7 +28,7 @@ body
 	color:white;
 	line-height: 1.5;
 	font-size: 1.5rem;	
-	word-spacing:1px;
+	word-spacing:2px;
 	letter-spacing: 2px;
 }
 /*.about
@@ -38,7 +38,7 @@ body
 p
 {
 	font-family: "TTNorms",sans-serif;
-	text-align:justify;
+	
 }
 
 table
