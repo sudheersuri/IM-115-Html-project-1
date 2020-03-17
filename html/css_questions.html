@@ -23,7 +23,6 @@
 		  <input type="radio" name="first" > <label id="answer"> pseudo class</label><br><br>
   		<input type="radio" name="first" > <label> pseudo element</label>
   		
-  		
   		<p> 2) Which of the following is not a value of float property?</p> 
 		  <input type="radio" name="second" > <label>none</label><br><br>
       <input type="radio" id="answer" name="second" > <label> right</label><br><br>
@@ -42,13 +41,15 @@
 
   		<p> 5) Which of the following is not a value of position property?</p>
 	  	<input type="radio" name="fifth" /> <label>relative</label><br><br>
-  		<input type="radio" id="answer" name="fifth" > <label id="answer">dynamic</label><br><br>
-  		<input type="radio" id="answer" name="fifth" > <label>static</label><br><br>
-  		
+  		<input type="radio" id="answer" name="fifth" ><label id="answer">dynamic</label><br><br>
+  		<input type="radio" id="answer" name="fifth" ><label>static</label><br><br>
   </form>
 
 <!-- check answers and go back buttons -->
-<center><button id="backBtn" onclick="gotohome()">Go Back</button><span> </span><button id="showBtn" onclick="answers()">Show Answers</button></center>
+    <div class="buttons_container">
+      <div class="show_answers"><button onclick="answers()">Show Answers</button></div>
+      <div class="go_back"><a href="./home.html">Back</a></div>
+    </div>
 </div>
 </body>
 </html>
